@@ -1,0 +1,16 @@
+[manifest]
+id = "chaos_kong"
+version = "1.0.0"
+display_name = "Chaos Kong 64"
+description = "Random effect every so often"
+short_description = "Random effect every so often"
+authors = [ "Umed" ]
+game_id = "dk64"
+minimum_recomp_version = "1.0.0"
+
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = "chaos_kong"
+func_reference_syms_file = "Dk64Syms/dump.toml"
+data_reference_syms_files = [ "Dk64Syms/data_dump.toml" ]
+additional_files = ["thumb.dds"]
